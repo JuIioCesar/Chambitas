@@ -430,7 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = V9QPA276C7;
 				INFOPLIST_FILE = Chambitas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -439,6 +439,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.nuria.chambitas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a512c2e6-6308-4230-a519-6fe09aaa07c2";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.julio.nuria.chambitas";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,7 +450,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = V9QPA276C7;
 				INFOPLIST_FILE = Chambitas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +460,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.nuria.chambitas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e0599d98-8eb4-4969-a8eb-ec8ec1ea9253";
+				PROVISIONING_PROFILE_SPECIFIER = "com.julio.nuria.chambitas AppStore";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
