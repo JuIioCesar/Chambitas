@@ -14,6 +14,7 @@
 		6CBC272621178BC300FBA767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC272421178BC300FBA767 /* LaunchScreen.storyboard */; };
 		6CBC273121178BC300FBA767 /* ChambitasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC273021178BC300FBA767 /* ChambitasTests.swift */; };
 		6CBC273C21178BC300FBA767 /* ChambitasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC273B21178BC300FBA767 /* ChambitasUITests.swift */; };
+		6CFA2C622117A13C000E139E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA2C612117A13C000E139E /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6CBC273B21178BC300FBA767 /* ChambitasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChambitasUITests.swift; sourceTree = "<group>"; };
 		6CBC273D21178BC300FBA767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CBC274921179B3C00FBA767 /* Chambitas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chambitas.entitlements; sourceTree = "<group>"; };
+		6CFA2C612117A13C000E139E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFA2C622117A13C000E139E /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +134,7 @@
 		6CBC274A21179B3F00FBA767 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CFA2C612117A13C000E139E /* CloudKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -450,7 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Chambitas/Chambitas.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9QPA276C7;
 				INFOPLIST_FILE = Chambitas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,8 +463,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.nuria.chambitas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4102b52c-d552-4470-8d94-521a4bc0c0ff";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.julio.nuria.chambitas";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,8 +475,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Chambitas/Chambitas.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9QPA276C7;
 				INFOPLIST_FILE = Chambitas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,8 +485,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.julio.nuria.chambitas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4b65a287-0e4d-4b1d-9e19-fc2011da63b2";
-				PROVISIONING_PROFILE_SPECIFIER = "com.julio.nuria.chambitas AppStore 1533502954";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
