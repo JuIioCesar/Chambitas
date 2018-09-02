@@ -40,6 +40,54 @@ class ViewController: FormViewController {
                 $0.selectorTitle = "Escoge tú genero"
                 $0.options = ["Hombre", "Mujer"]
             }
+            <<< ActionSheetRow<String>() {
+                $0.title = "Trabajo a desempeñar"
+                $0.selectorTitle = "Trabajo"
+                $0.options = [
+                    "Carpintero",
+                    "Lechero",
+                    "Cerrajero",
+                    "Cocinero",
+                    "Mecánico",
+                    "Lavandero",
+                    "Pescador",
+                    "Escultor",
+                    "Albañil",
+                    "Editor",
+                    "Fontanero o plomero",
+                    "Obrero",
+                    "Carpintero",
+                    "Locutor",
+                    "Soldador",
+                    "Escritor",
+                    "Pintor de brocha gorda",
+                    "Vendedor",
+                    "Sastre",
+                    "Repartidor",
+                    "Pastor ganadero",
+                    "Cajero",
+                    "Agricultor",
+                    "Vigilante",
+                    "Carnicero",
+                    "Animador",
+                    "Chofer o conductor",
+                    "Peluquero",
+                    "Frutero",
+                    "Barbero",
+                    "Deshollinador",
+                    "Leñador",
+                    "Artesano",
+                    "Peletero",
+                    "Tornero",
+                    "Impresor",
+                    "Barrendero",
+                    "Policía",
+                    "Panadero",
+                    "Exterminador",
+                    "Tintorero",
+                    "Servicios de limpieza"
+                ].sorted()
+            }
             <<< ButtonRow() {
                 $0.title = "Conectar con Paypal"
             }
