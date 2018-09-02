@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1069BA8BE39724A8A720DE56 /* Pods_Chambitas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E227C7BCE36072AB1CF70F3 /* Pods_Chambitas.framework */; };
 		6CBC271C21178BC200FBA767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC271B21178BC200FBA767 /* AppDelegate.swift */; };
 		6CBC271E21178BC200FBA767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC271D21178BC200FBA767 /* ViewController.swift */; };
 		6CBC272121178BC200FBA767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC271F21178BC200FBA767 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		6CBC273121178BC300FBA767 /* ChambitasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC273021178BC300FBA767 /* ChambitasTests.swift */; };
 		6CBC273C21178BC300FBA767 /* ChambitasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC273B21178BC300FBA767 /* ChambitasUITests.swift */; };
 		6CFA2C622117A13C000E139E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA2C612117A13C000E139E /* CloudKit.framework */; };
+		CBB71C1E0A5CF9FF59F0709C /* Pods_ChambitasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1650A5A66B12F04D77B75904 /* Pods_ChambitasTests.framework */; };
+		D70CC8F2D4E494078278DD90 /* Pods_ChambitasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5953E8469290BC3B91C23F3A /* Pods_ChambitasUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1650A5A66B12F04D77B75904 /* Pods_ChambitasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChambitasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC8CEDEA6621048CAC0E23F /* Pods-ChambitasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambitasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChambitasTests/Pods-ChambitasTests.release.xcconfig"; sourceTree = "<group>"; };
+		5953E8469290BC3B91C23F3A /* Pods_ChambitasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChambitasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6313FE06083E2FA900AD82CB /* Pods-ChambitasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambitasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChambitasUITests/Pods-ChambitasUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6CBC271821178BC200FBA767 /* Chambitas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chambitas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBC271B21178BC200FBA767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CBC271D21178BC200FBA767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +57,11 @@
 		6CBC273D21178BC300FBA767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CBC274921179B3C00FBA767 /* Chambitas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chambitas.entitlements; sourceTree = "<group>"; };
 		6CFA2C612117A13C000E139E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		6E227C7BCE36072AB1CF70F3 /* Pods_Chambitas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chambitas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702C57EDE656E016D043B3E8 /* Pods-Chambitas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chambitas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chambitas/Pods-Chambitas.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E1212D70C1CD609447C7BB /* Pods-Chambitas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chambitas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chambitas/Pods-Chambitas.release.xcconfig"; sourceTree = "<group>"; };
+		CBF4D58B7E713362079B5CC1 /* Pods-ChambitasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambitasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChambitasUITests/Pods-ChambitasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0A7367A011CF1CA4CFD24E /* Pods-ChambitasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambitasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChambitasTests/Pods-ChambitasTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CFA2C622117A13C000E139E /* CloudKit.framework in Frameworks */,
+				1069BA8BE39724A8A720DE56 /* Pods_Chambitas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB71C1E0A5CF9FF59F0709C /* Pods_ChambitasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70CC8F2D4E494078278DD90 /* Pods_ChambitasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +101,7 @@
 				6CBC273A21178BC300FBA767 /* ChambitasUITests */,
 				6CBC271921178BC200FBA767 /* Products */,
 				6CBC274A21179B3F00FBA767 /* Frameworks */,
+				9B51676A46115D324606B419 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,8 +151,24 @@
 			isa = PBXGroup;
 			children = (
 				6CFA2C612117A13C000E139E /* CloudKit.framework */,
+				6E227C7BCE36072AB1CF70F3 /* Pods_Chambitas.framework */,
+				1650A5A66B12F04D77B75904 /* Pods_ChambitasTests.framework */,
+				5953E8469290BC3B91C23F3A /* Pods_ChambitasUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B51676A46115D324606B419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				702C57EDE656E016D043B3E8 /* Pods-Chambitas.debug.xcconfig */,
+				A4E1212D70C1CD609447C7BB /* Pods-Chambitas.release.xcconfig */,
+				DC0A7367A011CF1CA4CFD24E /* Pods-ChambitasTests.debug.xcconfig */,
+				3BC8CEDEA6621048CAC0E23F /* Pods-ChambitasTests.release.xcconfig */,
+				CBF4D58B7E713362079B5CC1 /* Pods-ChambitasUITests.debug.xcconfig */,
+				6313FE06083E2FA900AD82CB /* Pods-ChambitasUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CBC274021178BC300FBA767 /* Build configuration list for PBXNativeTarget "Chambitas" */;
 			buildPhases = (
+				6664AC73EF48A176B6F490FA /* [CP] Check Pods Manifest.lock */,
 				6CBC271421178BC200FBA767 /* Sources */,
 				6CBC271521178BC200FBA767 /* Frameworks */,
 				6CBC271621178BC200FBA767 /* Resources */,
+				C4E782CB888D4C93CDA6B010 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CBC274321178BC300FBA767 /* Build configuration list for PBXNativeTarget "ChambitasTests" */;
 			buildPhases = (
+				ACE24505BD958DDF25A1BC1C /* [CP] Check Pods Manifest.lock */,
 				6CBC272821178BC300FBA767 /* Sources */,
 				6CBC272921178BC300FBA767 /* Frameworks */,
 				6CBC272A21178BC300FBA767 /* Resources */,
@@ -181,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CBC274621178BC300FBA767 /* Build configuration list for PBXNativeTarget "ChambitasUITests" */;
 			buildPhases = (
+				A5D2A60F88EF9138C70C8D52 /* [CP] Check Pods Manifest.lock */,
 				6CBC273321178BC300FBA767 /* Sources */,
 				6CBC273421178BC300FBA767 /* Frameworks */,
 				6CBC273521178BC300FBA767 /* Resources */,
@@ -272,6 +308,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6664AC73EF48A176B6F490FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chambitas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D2A60F88EF9138C70C8D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChambitasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE24505BD958DDF25A1BC1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChambitasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E782CB888D4C93CDA6B010 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chambitas/Pods-Chambitas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APValidators/APValidators.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APValidators.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chambitas/Pods-Chambitas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6CBC271421178BC200FBA767 /* Sources */ = {
@@ -450,6 +563,7 @@
 		};
 		6CBC274121178BC300FBA767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702C57EDE656E016D043B3E8 /* Pods-Chambitas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Chambitas/Chambitas.entitlements;
@@ -472,6 +586,7 @@
 		};
 		6CBC274221178BC300FBA767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E1212D70C1CD609447C7BB /* Pods-Chambitas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Chambitas/Chambitas.entitlements;
@@ -494,6 +609,7 @@
 		};
 		6CBC274421178BC300FBA767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0A7367A011CF1CA4CFD24E /* Pods-ChambitasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +631,7 @@
 		};
 		6CBC274521178BC300FBA767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC8CEDEA6621048CAC0E23F /* Pods-ChambitasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +653,7 @@
 		};
 		6CBC274721178BC300FBA767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF4D58B7E713362079B5CC1 /* Pods-ChambitasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +674,7 @@
 		};
 		6CBC274821178BC300FBA767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6313FE06083E2FA900AD82CB /* Pods-ChambitasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
