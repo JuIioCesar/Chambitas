@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1069BA8BE39724A8A720DE56 /* Pods_Chambitas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E227C7BCE36072AB1CF70F3 /* Pods_Chambitas.framework */; };
+		6C230169213C531600C2882F /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C230168213C531600C2882F /* BViewController.swift */; };
 		6CBC271C21178BC200FBA767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC271B21178BC200FBA767 /* AppDelegate.swift */; };
 		6CBC271E21178BC200FBA767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC271D21178BC200FBA767 /* ViewController.swift */; };
 		6CBC272121178BC200FBA767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC271F21178BC200FBA767 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		3BC8CEDEA6621048CAC0E23F /* Pods-ChambitasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambitasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChambitasTests/Pods-ChambitasTests.release.xcconfig"; sourceTree = "<group>"; };
 		5953E8469290BC3B91C23F3A /* Pods_ChambitasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChambitasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6313FE06083E2FA900AD82CB /* Pods-ChambitasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambitasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChambitasUITests/Pods-ChambitasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C230168213C531600C2882F /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		6CBC271821178BC200FBA767 /* Chambitas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chambitas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBC271B21178BC200FBA767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CBC271D21178BC200FBA767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				6CBC274921179B3C00FBA767 /* Chambitas.entitlements */,
 				6CBC271B21178BC200FBA767 /* AppDelegate.swift */,
 				6CBC271D21178BC200FBA767 /* ViewController.swift */,
+				6C230168213C531600C2882F /* BViewController.swift */,
 				6CBC271F21178BC200FBA767 /* Main.storyboard */,
 				6CBC272221178BC300FBA767 /* Assets.xcassets */,
 				6CBC272421178BC300FBA767 /* LaunchScreen.storyboard */,
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CBC271E21178BC200FBA767 /* ViewController.swift in Sources */,
+				6C230169213C531600C2882F /* BViewController.swift in Sources */,
 				6CBC271C21178BC200FBA767 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

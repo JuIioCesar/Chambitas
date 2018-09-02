@@ -25,7 +25,7 @@ class ViewController: FormViewController {
                 row.placeholder = "Correa Guerrero"
             }
             <<< PhoneRow(){
-                $0.title = "Phone Row"
+                $0.title = "Télefono celular"
                 $0.placeholder = "5516859129"
             }
             <<< DateRow(){
