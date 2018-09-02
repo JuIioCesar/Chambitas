@@ -13,6 +13,7 @@ class ViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Perfil"
         self.form +++ Section("Inscribete")
             <<< TextRow(){ row in
                 row.title = "Nombre"
@@ -35,12 +36,23 @@ class ViewController: FormViewController {
                 row.title = "Correo electronico"
                 row.placeholder = "nuria.te.amo@me.com"
             }
-            <<< ActionSheetRow<String>() {
+            <<< TextRow(){ row in
+                row.title = "CURP"
+                row.placeholder = "JUBG901215ZLLH04"
+            }
+            <<< LabelRow() {
+                $0.title = "Dirección"
+            }
+            <<< TextAreaRow() { row in
+                row.placeholder = "Av Calle de la Casa de la hija de su mami no. 123 CP: 0999"
+            }
+            <<< SegmentedRow<String>() {
                 $0.title = "Genero"
                 $0.selectorTitle = "Escoge tú genero"
                 $0.options = ["Hombre", "Mujer"]
             }
-            <<< ActionSheetRow<String>() {
+            <<< PushRow<String>() {
+                $0.tag = "work"
                 $0.title = "Trabajo a desempeñar"
                 $0.selectorTitle = "Trabajo"
                 $0.options = [
@@ -56,7 +68,6 @@ class ViewController: FormViewController {
                     "Editor",
                     "Fontanero o plomero",
                     "Obrero",
-                    "Carpintero",
                     "Locutor",
                     "Soldador",
                     "Escritor",
@@ -87,14 +98,25 @@ class ViewController: FormViewController {
                     "Tintorero",
                     "Servicios de limpieza"
                 ].sorted()
-            }
-            <<< ButtonRow() {
-                $0.title = "Conectar con Paypal"
-            }
+                }.onPresent({ (firme, selector) in
+                    selector.dismissOnChange = true
+                    selector.dismissOnSelection = true
+                })
+            +++ Section("Documentación")
             <<< ButtonRow() {
                 $0.title = "Subir carta de antecedentes no penales"
             }
-            +++ Section("")
+            <<< TextRow(){ row in
+                row.title = "Número de identifiación de INE (Es el número al reverso de la credencial)"
+                row.placeholder = "123456789090"
+            }
+            <<< ButtonRow() {
+                $0.title = "Subir INE"
+            }
+            +++ Section("Método de pago")
+            <<< ButtonRow() {
+                $0.title = "Conectar con Paypal"
+            }
         }
 
 
