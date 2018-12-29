@@ -33,4 +33,7 @@ class ChambitasTests: XCTestCase {
         }
     }
     
+    func testTests() {
+        
+    }
 }
