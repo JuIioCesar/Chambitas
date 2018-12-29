@@ -9,29 +9,6 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Chambitas.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>6CBC271721178BC200FBA767</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6CBC272B21178BC300FBA767</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6CBC273621178BC300FBA767</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 	</dict>
 </dict>
 </plist>
