@@ -113,12 +113,6 @@ class ViewController: FormViewController {
             <<< ButtonRow() {
                 $0.title = "Subir INE"
             }
-            +++ Section("Método de pago")
-            <<< ButtonRow() {
-                $0.title = "Conectar con Paypal"
-            }
         }
-
-
 }
 
