@@ -3,7 +3,9 @@ osx_image: xcode10.1
 xcode_project: Chambitas.xcodeproj
 xcode_scheme: Chambitas
 xcode_sdk: iphonesimulator10.2
-script: xcodebuild -workspace Chambitas.xcworkspace -scheme Chambitas -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script:
+- xcodebuild -workspace Chambitas.xcworkspace -scheme Chambitas -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO 
+- xcodebuild -workspace Chambitas.xcworkspace -scheme Chambitas -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO test
 
 notifications:
   email: false
