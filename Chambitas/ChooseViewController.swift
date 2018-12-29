@@ -9,12 +9,12 @@
 import UIKit
 import Eureka
 
-class BViewController: FormViewController {
+class ChooseViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Chambitas"
-        let view = ViewController()
+        let view = ProfileViewController()
         self.form +++ Section("¿Que quieres hacer?")
             <<< LabelRow() {
                 $0.title = "Quiero comprar un servicio"

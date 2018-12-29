@@ -9,7 +9,7 @@
 import UIKit
 import Eureka
 
-class ViewController: FormViewController {
+class ProfileViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
