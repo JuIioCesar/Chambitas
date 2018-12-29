@@ -34,6 +34,6 @@ class ChambitasTests: XCTestCase {
     }
     
     func testTests() {
-        assertionFailure()
+        XCTAssert(false)
     }
 }
