@@ -6,8 +6,8 @@ target 'Chambitas' do
   use_frameworks!
 
   # Pods for Chambitas
-  pod 'Eureka'
-  pod 'APValidators'
+  pod 'MaterialComponents'
+
   target 'ChambitasTests' do
     inherit! :search_paths
     # Pods for testing
